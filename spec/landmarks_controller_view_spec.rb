@@ -74,5 +74,5 @@ describe LandmarksController do
     expect(page.current_path).to eq("/landmarks/#{@original_landmark.id}")
     expect(@updated_landmark.name).to eq("BQE!!!!")
     expect(@updated_landmark.year_completed.to_s).to eq("9999")
-  end
+  end 
 end
